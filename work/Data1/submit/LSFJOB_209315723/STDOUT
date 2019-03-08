@@ -1,0 +1,292 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/gsu/209315723> on <b6191b931b.cern.ch>
+
+starting batch job initialization
+batch job user initialization finished
+b6191b931b.cern.ch
+/pool/lsf/gsu/209315723
+gsu
+[7mlsetup              [0m lsetup <tool1> [ <tool2> ...] (see lsetup -h):
+[7m lsetup agis        [0m  ATLAS Grid Information System
+[7m lsetup asetup      [0m  (or asetup) to setup an Athena release
+[7m lsetup atlantis    [0m  Atlantis: event display
+[7m lsetup eiclient    [0m  Event Index 
+[7m lsetup emi         [0m  EMI: grid middleware user interface 
+[7m lsetup ganga       [0m  Ganga: job definition and management client
+[7m lsetup lcgenv      [0m  lcgenv: setup tools from cvmfs SFT repository
+[7m lsetup panda       [0m  Panda: Production ANd Distributed Analysis
+[7m lsetup pod         [0m  Proof-on-Demand (obsolete)
+[7m lsetup pyami       [0m  pyAMI: ATLAS Metadata Interface python client
+[7m lsetup root        [0m  ROOT data processing framework
+[7m lsetup rucio       [0m  distributed data management system client
+[7m lsetup sft         [0m  setup tools from SFT repo (use lcgenv instead)
+[7m lsetup xcache      [0m  XRootD local proxy cache
+[7m lsetup xrootd      [0m  XRootD data access
+[7madvancedTools       [0m advanced tools menu
+[7mdiagnostics         [0m diagnostic tools menu
+[7mhelpMe              [0m more help
+[7mprintMenu           [0m show this menu
+[7mshowVersions        [0m show versions of installed software
+Going to set up ROOT-6.04.16-x86_64-slc6-gcc49-opt from cvmfs
+
+Processing /cvmfs/atlas.cern.ch/repo/sw/ASG/AnalysisBase/2.4.28/RootCore/scripts/load_packages.C...
+Warning in <TClassTable::Add>: class AnalysisReader already in TClassTable
+xAOD::Init                INFO    Environment initialised for data access
+Processing /afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/RootCoreBin/user_scripts/EventLoop/batch_worker.C(5,"/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/submitDir/submit/config.root")...
+/pool/lsf/gsu/209315723/EventLoop-Worker-data-5-1544092471-31813
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284213.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836117._000004.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Initializing histograms.
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284213.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836117._000005.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284285.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836138._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284285.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836138._000002.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284285.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836138._000003.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284285.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836138._000004.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284285.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836138._000005.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284285.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836138._000006.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284420.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836157._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284427.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836178._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284484.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836197._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00284484.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836197._000002.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00297730.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836779._000001.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Processing file '/eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00297730.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836779._000001.CxAOD.root'
+AnalysisReader_hhbbtt:... INFO    Initialize CxAODTag
+AnalysisReader_hhbbtt:... INFO    We assume this file is of CxAODTag=CxAODTag28. AnalysisReader supports only tag 26 or later.
+AnalysisReader_hhbbtt:... INFO    Initialize event.
+AnalysisReader_hhbbtt:... INFO    Number of events on first file = 7949
+AnalysisReader_hhbbtt:... INFO    Luminosity for normalisation of MC = 36.099998 fb-1
+AnalysisReader_hhbbtt:... INFO    Initialize object reader.
+AnalysisReader_hhbbtt:... INFO    Reader 'eventInfo' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... INFO    Reader 'MET' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... WARNING Container for reader 'MPT' not defined! Reader not registered.
+AnalysisReader_hhbbtt:... WARNING Container for reader 'METMJTight' not defined! Reader not registered.
+AnalysisReader_hhbbtt:... WARNING Container for reader 'METMJMuTight' not defined! Reader not registered.
+AnalysisReader_hhbbtt:... INFO    Reader 'electron' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... INFO    Reader 'photon' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... INFO    Reader 'diTauJet' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... INFO    Reader 'muon' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... INFO    Reader 'tau' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... INFO    Reader 'jet' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... INFO    Reader 'fatJet' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... INFO    Reader 'trackJet' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... WARNING Container for reader 'truthEvent' not defined! Reader not registered.
+AnalysisReader_hhbbtt:... INFO    Reader 'truthParticle' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... WARNING Container for reader 'truthTau' not defined! Reader not registered.
+AnalysisReader_hhbbtt:... WARNING Container for reader 'truthMuon' not defined! Reader not registered.
+AnalysisReader_hhbbtt:... WARNING Container for reader 'truthElectron' not defined! Reader not registered.
+AnalysisReader_hhbbtt:... WARNING Container for reader 'truthNeutrino' not defined! Reader not registered.
+AnalysisReader_hhbbtt:... WARNING Container for reader 'truthWZJet' not defined! Reader not registered.
+AnalysisReader_hhbbtt:... INFO    Reader 'ditau' registered with createShallowCopies = 0.
+AnalysisReader_hhbbtt:... INFO    Initialize isMC.
+AnalysisReader_hhbbtt:... INFO    isMC = 0
+XSectionProvider()        INFO    Reading file '/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/RootCoreBin/data/FrameworkSub_HH_bbtautau/XSections_13TeV.txt'.
+XSectionProvider()        WARNING Skipping duplicated mc_channel_number for line '410087  2.229          1.47  1.000000    MadGraphttgamma_allhad      MadGraphPythia8EvtGen_A14NNPDF23LO_ttgamma_allhad      '.
+XSectionProvider()        WARNING Skipping duplicated mc_channel_number for line '410082  2.982          1.47  1.000000    MadGraphttgamma_noallhad    MadGraphPythia8EvtGen_A14NNPDF23LO_ttgamma_noallhad    '.
+AnalysisReader_hhbbtt:... INFO    Initialize systematic variations.
+ObjectReader::discover... INFO    Reading variations for container 'EventInfo'
+ObjectReader::discover... INFO    Reading variations for container 'MET_Reference_AntiKt4EMTopo'
+ObjectReader::discover... INFO    Reading variations for container 'Electrons'
+ObjectReader::discover... INFO    Reading variations for container 'PhotonCollection'
+ObjectReader::discover... WARNING No variations for container 'PhotonCollection' found!
+ObjectReader::discover... INFO    Reading variations for container 'DiTauJets'
+ObjectReader::discover... INFO    Reading variations for container 'Muons'
+ObjectReader::discover... INFO    Reading variations for container 'TauJets'
+ObjectReader::discover... INFO    Reading variations for container 'AntiKt4EMTopoJets'
+ObjectReader::discover... INFO    Reading variations for container 'AntiKt10LCTopoTrimmedPtFrac5SmallR20Jets'
+ObjectReader::discover... INFO    Reading variations for container 'AntiKt2PV0TrackJets'
+ObjectReader::discover... INFO    Reading variations for container 'TruthParticles'
+ObjectReader::discover... WARNING No variations for container 'TruthParticles' found!
+ObjectReader::discover... INFO    Reading variations for container 'DiTauMass'
+AnalysisReader_hhbbtt:... INFO    Running Nominal only!
+AnalysisReader_hhbbtt:... INFO    Initialize analysis 'boosted'.
+TriggerTool::initialize() INFO    Initialize trigger.
+TriggerTool::initialize() INFO    Initialize trigger.
+MVATree::MVATree()        INFO    Initialize tree for 1 variations and persistent = 0.
+varName
+AnalysisReader_hhbbtt:... INFO    Initialize tools.
+XSectionProvider()        INFO    Reading file '/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/RootCoreBin/data/FrameworkSub/XSections_13TeV.txt'.
+XSectionProvider()        WARNING Skipping duplicated mc_channel_number for line '343365 0.5071               1.0          1.0         aMcAtNloPythia8EvtGen_A14_NNPDF23_NNPDF30ME_ttH125_dilep'.
+XSectionProvider()        WARNING Skipping duplicated mc_channel_number for line '410501  730.17  1.1391      0.54378         ttbar_PwPy8EG           PwPy8EG_A14_ttbar_hdamp258p75_nonallhad'.
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_60
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_60
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_70
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_70
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_77
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_77
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_85
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_85
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_60
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_60
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_70
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_70
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_77
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_77
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_85
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_85
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_30
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_30
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_40
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_40
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_50
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FlatBEff_50
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_30
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_30
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_50
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_50
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_80
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_80
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_90
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, FixedCutBEff_90
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4EMTopoJets, Continuous
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4EMTopoJets, Continuous
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_60
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_60
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_70
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_70
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_77
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_77
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_85
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_85
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_30
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_30
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_50
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_50
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_80
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_80
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_90
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt2PV0TrackJets, FixedCutBEff_90
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_60
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_60
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_70
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_70
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_77
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_77
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_85
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_85
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_30
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_30
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_50
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_50
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_80
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_80
+BTaggingTool::initialize  INFO    Found efficiency tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_90
+BTaggingTool::initialize  INFO    Found selection tool settings: MV2c10, AntiKt4PV0TrackJets, FixedCutBEff_90
+Getting histogram: h_overallFFforEachRegion from: /data/FrameworkSub_HH_bbtautau/FFqcd_boosted.root
+Getting FakeFactor hist named: h_FF_Pt_EtaCentralbinned_dPhiFFR_0tag from: /data/FrameworkSub_HH_bbtautau/FFqcd_boosted.root
+Getting FakeFactor hist named: h_FF_Pt_EtaCentralbinned_dPhiFFR_1tag from: /data/FrameworkSub_HH_bbtautau/FFqcd_boosted.root
+Getting FakeFactor hist named: h_FF_Pt_EtaForwardbinned_dPhiFFR_0tag from: /data/FrameworkSub_HH_bbtautau/FFqcd_boosted.root
+Getting FakeFactor hist named: h_FF_Pt_EtaForwardbinned_dPhiFFR_1tag from: /data/FrameworkSub_HH_bbtautau/FFqcd_boosted.root
+Getting FakeFactor hist named: h_FF_Pt_EtaCentralbinned_0tag from: /data/FrameworkSub_HH_bbtautau/FFqcd_boosted.root
+Getting FakeFactor hist named: h_FF_Pt_EtaForwardbinned_0tag from: /data/FrameworkSub_HH_bbtautau/FFqcd_boosted.root
+MVATree::MVATree()        INFO    Initialize tree for 1 variations and persistent = 0.
+varName
+AnalysisReader_hhbbtt:... INFO    Initialize sum of weights.
+AnalysisReader_hhbbtt:... INFO    truth tagging1? 0
+AnalysisReader_hhbbtt:... INFO    Initialize channel -999
+AnalysisReader_hhbbtt:... INFO    Event number = 0
+AnalysisReader_hhbbtt:... INFO    Event number = 1000
+AnalysisReader_hhbbtt:... INFO    Event number = 2000
+AnalysisReader_hhbbtt:... INFO    Event number = 3000
+AnalysisReader_hhbbtt:... INFO    Event number = 4000
+AnalysisReader_hhbbtt:... INFO    Event number = 5000
+AnalysisReader_hhbbtt:... INFO    Event number = 6000
+AnalysisReader_hhbbtt:... INFO    Event number = 7000
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298595.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836798._000001.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Processing file '/eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298595.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836798._000001.CxAOD.root'
+AnalysisReader_hhbbtt:... INFO    Event number = 8000
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298609.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836819._000001.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Processing file '/eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298609.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836819._000001.CxAOD.root'
+AnalysisReader_hhbbtt:... INFO    Event number = 9000
+AnalysisReader_hhbbtt:... INFO    Event number = 10000
+AnalysisReader_hhbbtt:... INFO    Event number = 11000
+AnalysisReader_hhbbtt:... INFO    Event number = 12000
+AnalysisReader_hhbbtt:... INFO    Event number = 13000
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298633.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836835._000001.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Processing file '/eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298633.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836835._000001.CxAOD.root'
+AnalysisReader_hhbbtt:... INFO    Event number = 14000
+AnalysisReader_hhbbtt:... INFO    Event number = 15000
+AnalysisReader_hhbbtt:... INFO    Event number = 16000
+AnalysisReader_hhbbtt:... INFO    Event number = 17000
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298633.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836835._000002.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Processing file '/eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298633.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836835._000002.CxAOD.root'
+AnalysisReader_hhbbtt:... INFO    Event number = 18000
+AnalysisReader_hhbbtt:... INFO    Event number = 19000
+AnalysisReader_hhbbtt:... INFO    Event number = 20000
+AnalysisReader_hhbbtt:... INFO    Event number = 21000
+AnalysisReader_hhbbtt:... INFO    Event number = 22000
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298633.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836835._000003.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Processing file '/eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298633.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836835._000003.CxAOD.root'
+AnalysisReader_hhbbtt:... INFO    Event number = 23000
+AnalysisReader_hhbbtt:... INFO    Event number = 24000
+AnalysisReader_hhbbtt:... INFO    Event number = 25000
+AnalysisReader_hhbbtt:... INFO    Event number = 26000
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298687.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836854._000001.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Processing file '/eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298687.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836854._000001.CxAOD.root'
+AnalysisReader_hhbbtt:... INFO    Event number = 27000
+AnalysisReader_hhbbtt:... INFO    Event number = 28000
+AnalysisReader_hhbbtt:... INFO    Event number = 29000
+AnalysisReader_hhbbtt:... INFO    Event number = 30000
+AnalysisReader_hhbbtt:... INFO    Event number = 31000
+AnalysisReader_hhbbtt:... INFO    Event number = 32000
+AnalysisReader_hhbbtt:... INFO    Event number = 33000
+AnalysisReader_hhbbtt:... INFO    Event number = 34000
+AnalysisReader_hhbbtt:... INFO    Event number = 35000
+AnalysisReader_hhbbtt:... INFO    Event number = 36000
+AnalysisReader_hhbbtt:... INFO    Event number = 37000
+AnalysisReader_hhbbtt:... INFO    Event number = 38000
+AnalysisReader_hhbbtt:... INFO    Event number = 39000
+AnalysisReader_hhbbtt:... INFO    Event number = 40000
+AnalysisReader_hhbbtt:... INFO    Event number = 41000
+AnalysisReader_hhbbtt:... INFO    Event number = 42000
+AnalysisReader_hhbbtt:... INFO    Event number = 43000
+AnalysisReader_hhbbtt:... INFO    Event number = 44000
+AnalysisReader_hhbbtt:... INFO    Event number = 45000
+AnalysisReader_hhbbtt:... INFO    Event number = 46000
+AnalysisReader_hhbbtt:... INFO    Event number = 47000
+AnalysisReader_hhbbtt:... INFO    Event number = 48000
+AnalysisReader_hhbbtt:... INFO    Event number = 49000
+AnalysisReader_hhbbtt:... INFO    Event number = 50000
+AnalysisReader_hhbbtt:... INFO    Event number = 51000
+AnalysisReader_hhbbtt:... INFO    Event number = 52000
+AnalysisReader_hhbbtt:... INFO    Event number = 53000
+AnalysisReader_hhbbtt:... INFO    Event number = 54000
+AnalysisReader_hhbbtt:... INFO    Event number = 55000
+AnalysisReader_hhbbtt:... INFO    Event number = 56000
+AnalysisReader_hhbbtt:... INFO    Event number = 57000
+AnalysisReader_hhbbtt:... INFO    Event number = 58000
+AnalysisReader_hhbbtt:... INFO    Event number = 59000
+AnalysisReader_hhbbtt:... INFO    Event number = 60000
+AnalysisReader_hhbbtt:... INFO    Event number = 61000
+AnalysisReader_hhbbtt:... INFO    Event number = 62000
+AnalysisReader_hhbbtt:... INFO    Event number = 63000
+AnalysisReader_hhbbtt:... INFO    Event number = 64000
+AnalysisReader_hhbbtt:... INFO    Event number = 65000
+AnalysisReader_hhbbtt:... INFO    Event number = 66000
+AnalysisReader_hhbbtt:... INFO    Event number = 67000
+AnalysisReader_hhbbtt:... INFO    Event number = 68000
+AnalysisReader_hhbbtt:... INFO    Event number = 69000
+AnalysisReader_hhbbtt:... INFO    Event number = 70000
+AnalysisReader_hhbbtt:... INFO    Event number = 71000
+AnalysisReader_hhbbtt:... INFO    Event number = 72000
+AnalysisReader_hhbbtt:... INFO    Event number = 73000
+AnalysisReader_hhbbtt:... INFO    Event number = 74000
+AnalysisReader_hhbbtt:... INFO    Event number = 75000
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298690.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836875._000001.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Processing file '/eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data16_13TeV.00298690.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11836875._000001.CxAOD.root'
+AnalysisReader_hhbbtt:... INFO    Event number = 76000
+AnalysisReader_hhbbtt:... INFO    Event number = 77000
+AnalysisReader_hhbbtt:... INFO    Event number = 78000
+AnalysisReader_hhbbtt:... INFO    Event number = 79000
+AnalysisReader_hhbbtt:... INFO    Finalizing job.
+AnalysisReader_hhbbtt:... INFO    Finalizing tools.
+AnalysisReader_hhbbtt:... INFO    Processed events         = 79035
+AnalysisReader_hhbbtt:... INFO    Passed nominal selection = 79026
+AnalysisReader_hhbbtt:... INFO    Finalizing histograms.
+worker finished:
+Real time 0:01:12, CP time 32.930
+xAOD::TFileAccessTracer   INFO    Sending file access statistics to http://rucio-lb-prod.cern.ch:18762/traces/
+
+Job finished at Thu Dec  6 11:37:34 CET 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 0:01:56 KSI2K hours (116 KSI2K seconds)
+                 This process corresponds to     : 0:07:34 HS06  hours (454 HS06  seconds)

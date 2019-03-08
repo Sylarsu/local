@@ -1,0 +1,47 @@
+//Declare histograms we will use. We will copy histograms from the data file into these
+TH1F *h_data_bins;
+
+void DrawHistogram()
+{
+
+  TFile *_f_combinedData = TFile::Open("./submitDir/hist-RSG_C10_M3000.root");
+  h_data_bins = (TH1F *)gDirectory->Get("RS_G_hh_bbtt_hh_c10_M3000_0ptag0pjet_0ptv_SR_cutflow_sumofweights");
+
+  //Getting entries for DATA SUM OF WEIGHTS
+  cout << "Entries in each bin for "<<_f_combinedData->GetName() << endl;
+  double nbins = h_data_bins->GetNbinsX();
+  for (int i = 1; i < (nbins + 1); i++)
+  {
+    cout << "Bin " << i << " number of entries: " << h_data_bins->GetBinContent(i) << endl;
+  }
+  cout << endl;
+
+  // //Getting entries for FAKE SUM OF WEIGHTS
+  // cout << "Number of entries in each bin for FAKE_CUTFLOW_SUMOFWEIGHTS:" << endl;
+  // h_data_bins = (TH1F *)gDirectory->Get("fakes_0ptag0pjet_0ptv_SR_cutflow_sumofweights");
+  // nbins = h_data_bins->GetNbinsX();
+  // for (int i = 1; i < (nbins + 1); i++)
+  // {
+  //   cout << "Bin " << i << " number of entries: " << h_data_bins->GetBinContent(i) << endl;
+  // }
+  // cout << endl;
+
+  // //Getting entries for DATA N-EVENTS
+  // cout << "Number of entries in each bin for DATA_CUTFLOW_NEVENTS:" << endl;
+  // h_data_bins = (TH1F *)gDirectory->Get("data_0ptag0pjet_0ptv_SR_cutflow_nevents");
+  // nbins = h_data_bins->GetNbinsX();
+  // for (int i = 1; i < (nbins + 1); i++)
+  // {
+  //   cout << "Bin " << i << " number of entries: " << h_data_bins->GetBinContent(i) << endl;
+  // }
+  // cout << endl;
+
+  // //Getting entries for DATA N-EVENTS
+  // cout << "Number of entries in each bin for FAKE_CUTFLOW_NEVENTS:" << endl;
+  // h_data_bins = (TH1F *)gDirectory->Get("fakes_0ptag0pjet_0ptv_SR_cutflow_nevents");
+  // nbins = h_data_bins->GetNbinsX();
+  // for (int i = 1; i < (nbins + 1); i++)
+  // {
+  //   cout << "Bin " << i << " number of entries: " << h_data_bins->GetBinContent(i) << endl;
+  // }
+}

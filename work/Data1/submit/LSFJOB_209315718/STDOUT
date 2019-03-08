@@ -1,0 +1,67 @@
+@(#)CERN job starter $Date: 2010/06/23 14:22:16 $
+Working directory is </pool/lsf/gsu/209315718> on <b6a5801a51.cern.ch>
+
+starting batch job initialization
+batch job user initialization finished
+b6a5801a51.cern.ch
+/pool/lsf/gsu/209315718
+gsu
+[7mlsetup              [0m lsetup <tool1> [ <tool2> ...] (see lsetup -h):
+[7m lsetup agis        [0m  ATLAS Grid Information System
+[7m lsetup asetup      [0m  (or asetup) to setup an Athena release
+[7m lsetup atlantis    [0m  Atlantis: event display
+[7m lsetup eiclient    [0m  Event Index 
+[7m lsetup emi         [0m  EMI: grid middleware user interface 
+[7m lsetup ganga       [0m  Ganga: job definition and management client
+[7m lsetup lcgenv      [0m  lcgenv: setup tools from cvmfs SFT repository
+[7m lsetup panda       [0m  Panda: Production ANd Distributed Analysis
+[7m lsetup pod         [0m  Proof-on-Demand (obsolete)
+[7m lsetup pyami       [0m  pyAMI: ATLAS Metadata Interface python client
+[7m lsetup root        [0m  ROOT data processing framework
+[7m lsetup rucio       [0m  distributed data management system client
+[7m lsetup sft         [0m  setup tools from SFT repo (use lcgenv instead)
+[7m lsetup xcache      [0m  XRootD local proxy cache
+[7m lsetup xrootd      [0m  XRootD data access
+[7madvancedTools       [0m advanced tools menu
+[7mdiagnostics         [0m diagnostic tools menu
+[7mhelpMe              [0m more help
+[7mprintMenu           [0m show this menu
+[7mshowVersions        [0m show versions of installed software
+Going to set up ROOT-6.04.16-x86_64-slc6-gcc49-opt from cvmfs
+
+Processing /cvmfs/atlas.cern.ch/repo/sw/ASG/AnalysisBase/2.4.28/RootCore/scripts/load_packages.C...
+Warning in <TClassTable::Add>: class AnalysisReader already in TClassTable
+xAOD::Init                INFO    Environment initialised for data access
+Processing /afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/RootCoreBin/user_scripts/EventLoop/batch_worker.C(1,"/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/submitDir/submit/config.root")...
+/pool/lsf/gsu/209315718/EventLoop-Worker-data-1-1544093480-21491
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279515.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835460._000001.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Initializing histograms.
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279598.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835465._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279598.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835465._000002.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279685.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835472._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279685.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835472._000002.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279813.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835478._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279813.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835478._000002.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279867.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835487._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279928.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835496._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279932.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835505._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279984.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835517._000002.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00279984.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835517._000003.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00280231.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835527._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00280231.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835527._000002.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00280231.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835527._000003.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00280273.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835540._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00280319.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835556._000001.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00280319.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835556._000002.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00280319.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835556._000003.CxAOD.root
+Processing File file:///eos/atlas/atlascerngroupdisk/phys-higgs/HSG6/HH/bbtautau/HIGG4D6_13TeV/CxAOD_PaxaMama/data/group.phys-higgs.data15_13TeV.00280368.physics_Main.HIGG4D6.PaxaMama_CxAOD.root/group.phys-higgs.11835571._000001.CxAOD.root
+AnalysisReader_hhbbtt:... INFO    Finalizing histograms.
+worker finished:
+Real time 0:00:08, CP time 0.150
+xAOD::TFileAccessTracer   INFO    Sending file access statistics to http://rucio-lb-prod.cern.ch:18762/traces/
+
+Job finished at Thu Dec  6 11:53:38 CET 2018 on node 
+ under linux version Scientific Linux CERN SLC release 6.10 (Carbon)
+
+CERN statistics: This process used approximately : 0:00:26 KSI2K hours (26 KSI2K seconds)
+                 This process corresponds to     : 0:01:42 HS06  hours (102 HS06  seconds)

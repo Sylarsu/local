@@ -1,0 +1,38 @@
+#!/bin/bash
+echo starting batch job initialization
+
+echo batch job user initialization finished
+EL_JOBID=$1
+
+function abortJob {
+  touch "/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/submitDir/fetch/fail-$EL_JOBID"
+  touch "/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/submitDir/fetch/done-$EL_JOBID"
+  exit 1
+}
+
+test "$TMPDIR" == "" && TMPDIR=/tmp
+EL_JOBSEG=`grep "^$EL_JOBID " "/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/submitDir/submit/segments" | awk ' { print $2 }'`
+test "$EL_JOBSEG" != "" || abortJob
+hostname
+pwd
+whoami
+export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase && source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh
+RUNDIR=${TMPDIR}/EventLoop-Worker-$EL_JOBSEG-`date +%s`-$$
+mkdir "$RUNDIR" || abortJob
+cd "$RUNDIR" || abortJob
+export ROOTCORECONFIG=x86_64-slc6-gcc49-opt
+
+if test -z ${ROOTCOREBIN+x}
+then
+  if test -e /afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/RootCoreBin/local_setup.sh
+  then
+    source /afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/RootCoreBin/local_setup.sh || abortJob
+  else
+    source /cvmfs/atlas.cern.ch/repo/sw/ASG/AnalysisBase/2.4.28/RootCore/scripts/setup.sh || abortJob
+  fi
+fi
+
+rc root -l -b -q "$ROOTCOREBIN/user_scripts/EventLoop/batch_worker.C($EL_JOBID,\"/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/submitDir/submit/config.root\")" || abortJob
+test -f "/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/submitDir/fetch/completed-$EL_JOBID" || touch "/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/submitDir/fetch/fail-$EL_JOBID"
+touch "/afs/cern.ch/user/g/gsu/Boostedbbtt/Reader_180122/submitDir/fetch/done-$EL_JOBID"
+cd .. && rm -rf "$RUNDIR"
